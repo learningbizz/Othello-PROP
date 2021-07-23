@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classdomain_1_1_difficulty.html" title="Implements the abstract class and methods of all the difficulty implementations. By Arnau Pujantell." alt="" coords="5,56,120,83"/>
+<area shape="rect" id="node2" href="$classdomain_1_1_easy_difficulty.html" title="Implements the Minimax algorithm to get the next best possible position for a given player...." alt="" coords="177,5,320,32"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_hard_difficulty.html" title="Implements the Monte Carlo Tree Search algorithm to get the next best possible position for a given p..." alt="" coords="177,56,320,83"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_medium_difficulty.html" title="Implements the Minimax algorithm with alpha&#45;beta pruning to get the next best possible position for a..." alt="" coords="168,107,329,133"/>
+</map>

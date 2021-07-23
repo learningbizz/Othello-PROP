@@ -1,0 +1,25 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,699,84,726"/>
+<area shape="rect" id="node2" href="$classdomain_1_1_exceptions_1_1_bad_confirmation_exception.html" title="The entered confirmation password doesn&#39;t match the user&#39;s password. By Alex Rodriguez." alt="" coords="132,5,360,47"/>
+<area shape="rect" id="node3" href="$classdomain_1_1_exceptions_1_1_bot_used_exception.html" title="A bot cannot be modified or deleted if it is already part of a game. By Alex Rodriguez." alt="" coords="154,71,338,112"/>
+<area shape="rect" id="node4" href="$classdomain_1_1_exceptions_1_1_configuration_used_exception.html" title="A configuration cannot be modified or deleted if it is already used in a game. By Alex Rodriguez." alt="" coords="142,136,350,177"/>
+<area shape="rect" id="node5" href="$classdomain_1_1_exceptions_1_1_existing_configuration_exception.html" title="There is already a configuration with the same name and creator ID in the system. By Alex Rodriguez." alt="" coords="157,201,335,243"/>
+<area shape="rect" id="node6" href="$classdomain_1_1_exceptions_1_1_existing_player_exception.html" title="There is already a player with the same name in the system. By Alex Rodriguez." alt="" coords="157,267,335,308"/>
+<area shape="rect" id="node7" href="$classdomain_1_1_exceptions_1_1_finished_game_exception.html" title="The game is already finished. By Alex Rodriguez." alt="" coords="155,332,337,373"/>
+<area shape="rect" id="node8" href="$classdomain_1_1_exceptions_1_1_incorrect_credentials_exception.html" title="Wrong password or name. By Alex Rodriguez." alt="" coords="154,397,338,439"/>
+<area shape="rect" id="node9" href="$classdomain_1_1_exceptions_1_1_inexisting_configuration_exception.html" title="There isn&#39;t any configuration with the entered name. By Alex Rodriguez." alt="" coords="152,463,340,504"/>
+<area shape="rect" id="node10" href="$classdomain_1_1_exceptions_1_1_inexisting_player_exception.html" title="There isn&#39;t any player with the entered name. By Alex Rodriguez." alt="" coords="152,528,340,569"/>
+<area shape="rect" id="node11" href="$classdomain_1_1_exceptions_1_1_invalid_board_exception.html" title="The current board is in an illegal state. By Alex Rodriguez." alt="" coords="161,593,331,635"/>
+<area shape="rect" id="node12" href="$classdomain_1_1_exceptions_1_1_invalid_configuration_exception.html" title="The entered configuration is null, empty or blank. By Alex Rodriguez." alt="" coords="161,659,331,700"/>
+<area shape="rect" id="node13" href="$classdomain_1_1_exceptions_1_1_invalid_difficulty_exception.html" title="The entered difficulty is null, empty, blank, less than 0 or greater than 10. By Alex Rodriguez." alt="" coords="161,724,331,765"/>
+<area shape="rect" id="node14" href="$classdomain_1_1_exceptions_1_1_invalid_name_exception.html" title="The entered name is null, empty or blank. By Alex Rodriguez." alt="" coords="161,789,331,831"/>
+<area shape="rect" id="node15" href="$classdomain_1_1_exceptions_1_1_invalid_password_exception.html" title="The entered password is null, empty or blank. By Alex Rodriguez." alt="" coords="161,855,331,896"/>
+<area shape="rect" id="node16" href="$classdomain_1_1_exceptions_1_1_invalid_players_exception.html" title="The entered players are the same, null, empty, blank or both bots have the same difficulty...." alt="" coords="161,920,331,961"/>
+<area shape="rect" id="node17" href="$classdomain_1_1_exceptions_1_1_invalid_position_exception.html" title="The entered position is null, empty, blank or ends up with an invalid board. By Alex Rodriguez." alt="" coords="161,985,331,1027"/>
+<area shape="rect" id="node18" href="$classdomain_1_1_exceptions_1_1_invalid_rules_exception.html" title="The entered configuration rules are all deactivated. By Alex Rodriguez." alt="" coords="161,1051,331,1092"/>
+<area shape="rect" id="node19" href="$classdomain_1_1_exceptions_1_1_not_creator_exception.html" title="The user that tries to perform an action on a object is not the creator of it. By Alex Rodriguez." alt="" coords="148,1116,344,1157"/>
+<area shape="rect" id="node20" href="$classdomain_1_1_exceptions_1_1_not_player_exception.html" title="The player that wants to perform an action is not part of the game. By Alex Rodriguez." alt="" coords="151,1181,341,1223"/>
+<area shape="rect" id="node21" href="$classdomain_1_1_exceptions_1_1_not_player_piece_exception.html" title="The player that wants to perform an action tries to use an opponent piece. By Alex Rodriguez." alt="" coords="151,1247,341,1288"/>
+<area shape="rect" id="node22" href="$classdomain_1_1_exceptions_1_1_not_player_turn_exception.html" title="It is not the turn of the player that wants to perform an action. By Alex Rodriguez." alt="" coords="151,1312,341,1353"/>
+<area shape="rect" id="node23" href="$classdomain_1_1_exceptions_1_1_not_started_game_exception.html" title="The game has not yet started. By Alex Rodriguez." alt="" coords="148,1377,344,1419"/>
+</map>

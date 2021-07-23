@@ -1,0 +1,56 @@
+{
+  "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0": {
+    "password": "707d11765de821e5bd52bfc135ce9e1e0400f6aabad78a0cdb4543dc22669e49",
+    "is_deleted": false,
+    "name": "Jordi",
+    "id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "type": "USER"
+  },
+  "aad764a0-0d1e-47be-8855-6f2325625311": {
+    "difficulty": 2,
+    "is_deleted": false,
+    "name": "Alexandra",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "id": "aad764a0-0d1e-47be-8855-6f2325625311",
+    "type": "BOT"
+  },
+  "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25": {
+    "difficulty": 6,
+    "is_deleted": false,
+    "name": "Margaret Hamilton",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+    "type": "BOT"
+  },
+  "a55d7116-9e26-41f1-a655-6dbe5068c6e4": {
+    "difficulty": 8,
+    "is_deleted": false,
+    "name": "Papadopoulos",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+    "type": "BOT"
+  },
+  "01cb117c-3375-455a-8916-81a0027bf343": {
+    "password": "723ac1bf7bdf89a24880ed8450dc4107889d19bf9e1ec91eeec5fa6a171ddb1f",
+    "is_deleted": false,
+    "name": "Alumno",
+    "id": "01cb117c-3375-455a-8916-81a0027bf343",
+    "type": "USER"
+  },
+  "533024fa-7fa8-4799-a85e-c1b00beccd2a": {
+    "difficulty": 4,
+    "is_deleted": false,
+    "name": "Elon Musk",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "id": "533024fa-7fa8-4799-a85e-c1b00beccd2a",
+    "type": "BOT"
+  },
+  "2fb4ac14-042e-4a97-ba30-3092061e206a": {
+    "difficulty": 10,
+    "is_deleted": false,
+    "name": "Grace Hopper",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+    "type": "BOT"
+  }
+}

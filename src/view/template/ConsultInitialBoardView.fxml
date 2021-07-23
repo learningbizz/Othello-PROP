@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="823.5" prefWidth="1464.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ConsultInitialBoardView">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#34d399" height="824.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1464.0" />
+      <Line endX="460.0" layoutX="642.0" layoutY="130.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="460.0" layoutX="642.0" layoutY="200.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="460.0" layoutX="642.0" layoutY="270.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="460.0" layoutX="642.0" layoutY="340.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="460.0" layoutX="642.0" layoutY="410.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="460.0" layoutX="642.0" layoutY="480.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="460.0" layoutX="642.0" layoutY="550.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="460.0" layoutX="642.0" layoutY="620.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="460.0" layoutX="642.0" layoutY="690.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-110.0" endY="548.0" layoutX="652.0" layoutY="142.0" startX="-111.5" startY="-11.5" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-110.0" endY="548.0" layoutX="722.0" layoutY="142.0" startX="-111.5" startY="-11.5" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-110.0" endY="548.0" layoutX="792.0" layoutY="142.0" startX="-111.5" startY="-11.5" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-110.0" endY="548.0" layoutX="862.0" layoutY="142.0" startX="-111.5" startY="-11.5" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-110.0" endY="548.0" layoutX="932.0" layoutY="142.0" startX="-111.5" startY="-11.5" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-110.0" endY="548.0" layoutX="1002.0" layoutY="142.0" startX="-111.5" startY="-11.5" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-110.0" endY="548.0" layoutX="1072.0" layoutY="142.0" startX="-111.5" startY="-11.5" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-110.0" endY="548.0" layoutX="1142.0" layoutY="142.0" startX="-111.5" startY="-11.5" stroke="WHITE" strokeWidth="3.0" />
+      <Line endX="-110.0" endY="548.0" layoutX="1212.0" layoutY="142.0" startX="-111.5" startY="-11.5" stroke="WHITE" strokeWidth="3.0" />
+      <Text fill="WHITE" layoutX="42.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INITIAL BOARD">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Text fx:id="goToMenu" fill="WHITE" layoutX="1273.0" layoutY="51.0" onMouseClicked="#goToMenu" strokeType="OUTSIDE" strokeWidth="0.0" text="Go to menu">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Label fx:id="saveInitialBoardResult" layoutX="1158.0" layoutY="442.0" prefHeight="28.0" prefWidth="300.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Circle fx:id="f1c1" fill="#34d399" layoutX="576.0" layoutY="166.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f1c2" fill="#34d399" layoutX="646.0" layoutY="166.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f1c3" fill="#34d399" layoutX="716.0" layoutY="166.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f1c4" fill="#34d399" layoutX="786.0" layoutY="166.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f1c5" fill="#34d399" layoutX="856.0" layoutY="166.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-opacity: 1;">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f1c6" fill="#34d399" layoutX="926.0" layoutY="166.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f1c7" fill="#34d399" layoutX="996.0" layoutY="166.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f1c8" fill="#34d399" layoutX="1066.0" layoutY="166.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f2c1" fill="#34d399" layoutX="576.0" layoutY="236.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f2c2" fill="#34d399" layoutX="646.0" layoutY="236.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f2c3" fill="#34d399" layoutX="716.0" layoutY="236.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f2c4" fill="#34d399" layoutX="786.0" layoutY="236.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f2c5" fill="#34d399" layoutX="856.0" layoutY="236.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f2c6" fill="#34d399" layoutX="926.0" layoutY="236.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f2c7" fill="#34d399" layoutX="996.0" layoutY="236.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f2c8" fill="#34d399" layoutX="1066.0" layoutY="236.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f3c1" fill="#34d399" layoutX="576.0" layoutY="306.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f3c2" fill="#34d399" layoutX="646.0" layoutY="306.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f3c3" fill="#34d399" layoutX="716.0" layoutY="306.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f3c4" fill="#34d399" layoutX="786.0" layoutY="306.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f3c5" fill="#34d399" layoutX="856.0" layoutY="306.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f3c6" fill="#34d399" layoutX="926.0" layoutY="306.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f3c7" fill="#34d399" layoutX="996.0" layoutY="306.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f3c8" fill="#34d399" layoutX="1066.0" layoutY="306.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f4c1" fill="#34d399" layoutX="576.0" layoutY="376.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f4c2" fill="#34d399" layoutX="646.0" layoutY="376.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f4c3" fill="#34d399" layoutX="716.0" layoutY="376.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f4c4" fill="#34d399" layoutX="786.0" layoutY="376.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f4c5" fill="#34d399" layoutX="856.0" layoutY="376.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f4c6" fill="#34d399" layoutX="926.0" layoutY="376.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f4c8" fill="#34d399" layoutX="1066.0" layoutY="376.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f4c7" fill="#34d399" layoutX="996.0" layoutY="376.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f5c1" fill="#34d399" layoutX="576.0" layoutY="446.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f5c2" fill="#34d399" layoutX="646.0" layoutY="446.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f5c4" fill="#34d399" layoutX="786.0" layoutY="446.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f5c3" fill="#34d399" layoutX="716.0" layoutY="446.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f5c5" fill="#34d399" layoutX="856.0" layoutY="446.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f5c6" fill="#34d399" layoutX="926.0" layoutY="446.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f5c7" fill="#34d399" layoutX="996.0" layoutY="446.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f5c8" fill="#34d399" layoutX="1066.0" layoutY="446.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f6c1" fill="#34d399" layoutX="576.0" layoutY="516.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f6c2" fill="#34d399" layoutX="646.0" layoutY="516.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f6c3" fill="#34d399" layoutX="716.0" layoutY="516.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f6c4" fill="#34d399" layoutX="786.0" layoutY="516.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f6c5" fill="#34d399" layoutX="856.0" layoutY="516.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f6c6" fill="#34d399" layoutX="926.0" layoutY="516.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f6c7" fill="#34d399" layoutX="996.0" layoutY="516.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f6c8" fill="#34d399" layoutX="1066.0" layoutY="516.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f7c1" fill="#34d399" layoutX="576.0" layoutY="586.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f7c2" fill="#34d399" layoutX="646.0" layoutY="586.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f7c3" fill="#34d399" layoutX="716.0" layoutY="586.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f7c4" fill="#34d399" layoutX="786.0" layoutY="586.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f7c5" fill="#34d399" layoutX="856.0" layoutY="586.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f7c6" fill="#34d399" layoutX="926.0" layoutY="586.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f7c7" fill="#34d399" layoutX="996.0" layoutY="586.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f7c8" fill="#34d399" layoutX="1066.0" layoutY="586.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f8c1" fill="#34d399" layoutX="576.0" layoutY="656.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f8c2" fill="#34d399" layoutX="646.0" layoutY="656.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f8c3" fill="#34d399" layoutX="716.0" layoutY="656.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f8c4" fill="#34d399" layoutX="786.0" layoutY="656.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f8c5" fill="#34d399" layoutX="856.0" layoutY="656.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f8c6" fill="#34d399" layoutX="926.0" layoutY="656.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f8c7" fill="#34d399" layoutX="996.0" layoutY="656.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+      <Circle fx:id="f8c8" fill="#34d399" layoutX="1066.0" layoutY="656.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Circle>
+   </children>
+</AnchorPane>

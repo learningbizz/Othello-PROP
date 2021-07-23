@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="823.5" prefWidth="1464.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ConfigConsultView">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="824.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1464.0">
+         <fill>
+            <LinearGradient endX="0.519047619047619" endY="1.0" startX="0.5047619047619047">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.20392157137393951" green="0.8274509906768799" blue="0.6000000238418579" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.01568627543747425" green="0.47058823704719543" blue="0.34117648005485535" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9f9f9" height="660.0" layoutX="14.0" layoutY="121.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="744.0" AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="706.0" AnchorPane.topAnchor="121.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21212173" height="63.0" layoutX="14.0" layoutY="58.0" stroke="#a6a6a6" strokeType="INSIDE" width="106.5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f1f1f72" height="63.0" layoutX="121.0" layoutY="58.0" stroke="#a6a6a600" strokeType="INSIDE" width="99.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f7f7f7" height="63.0" layoutX="220.0" layoutY="58.0" stroke="#a6a6a6" strokeType="INSIDE" strokeWidth="0.0" width="118.5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22222275" height="63.0" layoutX="339.0" layoutY="58.0" stroke="#a6a6a6" strokeType="INSIDE" width="124.5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22222275" height="63.0" layoutX="464.0" layoutY="58.0" stroke="#a6a6a6" strokeType="INSIDE" width="142.5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#22222275" height="63.0" layoutX="607.0" layoutY="58.0" stroke="#a6a6a6" strokeType="INSIDE" width="87.0" />
+      <Text fill="#828282" layoutX="131.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create a new configuration.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#828282" layoutX="131.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a configuration, modify its parameters or delete it.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="user" fill="WHITE" layoutX="14.0" layoutY="99.0" onMouseClicked="#user" strokeType="OUTSIDE" strokeWidth="0.0" text="Me" textAlignment="CENTER" wrappingWidth="106.5">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="bots" fill="WHITE" layoutX="121.0" layoutY="99.0" onMouseClicked="#bots" strokeType="OUTSIDE" strokeWidth="0.0" text="Bots" textAlignment="CENTER" wrappingWidth="99.0">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="config" fill="#14966d" layoutX="220.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Config." textAlignment="CENTER" wrappingWidth="118.5">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="games" fill="WHITE" layoutX="339.0" layoutY="99.0" onMouseClicked="#games" strokeType="OUTSIDE" strokeWidth="0.0" text="Games" textAlignment="CENTER" wrappingWidth="124.5">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="ranking" fill="WHITE" layoutX="464.0" layoutY="99.0" onMouseClicked="#ranking" strokeType="OUTSIDE" strokeWidth="0.0" text="Ranking" textAlignment="CENTER" wrappingWidth="142.5">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="play" fill="WHITE" layoutX="607.0" layoutY="99.0" onMouseClicked="#play" strokeType="OUTSIDE" strokeWidth="0.0" text="Play" textAlignment="CENTER" wrappingWidth="87.0">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fill="#828282" layoutX="131.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Consult the information about any configuration created.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="592.0" layoutX="839.0" layoutY="187.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="547.0" />
+      <Text fill="WHITE" layoutX="838.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONSULT CONFIGURATION">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="880.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose a bot:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Rectangle fx:id="createConfigButton" arcHeight="5.0" arcWidth="5.0" height="45.0" layoutX="103.0" layoutY="192.0" onMouseClicked="#createConfig" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="289.0">
+         <fill>
+            <LinearGradient endX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.01568627543747425" green="0.47058823704719543" blue="0.34117648005485535" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.20392157137393951" green="0.8274509906768799" blue="0.6000000238418579" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Rectangle>
+      <Text fx:id="createConfig" fill="WHITE" layoutX="103.0" layoutY="224.0" onMouseClicked="#createConfig" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Configuration" textAlignment="CENTER" wrappingWidth="289.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Rectangle fx:id="consultConfigButton" arcHeight="5.0" arcWidth="5.0" height="45.0" layoutX="103.0" layoutY="473.0" onMouseClicked="#consultConfig" strokeType="INSIDE" width="289.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.018799999728798866" green="0.4699999988079071" blue="0.3346399962902069" opacity="0.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.20499999821186066" green="0.8199999928474426" blue="0.5945000052452087" opacity="0.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.01568627543747425" green="0.47058823704719543" blue="0.34117648005485535" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007662835249042145">
+                     <color>
+                        <Color red="0.01568627543747425" green="0.47058823704719543" blue="0.34117648005485535" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.20392157137393951" green="0.8274509906768799" blue="0.6000000238418579" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Rectangle>
+      <Text fx:id="consultConfig" fill="#14966d" layoutX="103.0" layoutY="505.0" onMouseClicked="#consultConfig" strokeType="OUTSIDE" strokeWidth="0.0" text="Consult Configuration" textAlignment="CENTER" wrappingWidth="289.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Rectangle fx:id="modifyConfigButton" arcHeight="5.0" arcWidth="5.0" height="45.0" layoutX="103.0" layoutY="332.0" onMouseClicked="#modifyConfig" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="289.0">
+         <fill>
+            <LinearGradient endX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.01568627543747425" green="0.47058823704719543" blue="0.34117648005485535" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.20392157137393951" green="0.8274509906768799" blue="0.6000000238418579" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Rectangle>
+      <Text fx:id="modifyConfig" fill="WHITE" layoutX="103.0" layoutY="364.0" onMouseClicked="#modifyConfig" strokeType="OUTSIDE" strokeWidth="0.0" text="Modify Configuration" textAlignment="CENTER" wrappingWidth="289.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="461.0" layoutX="878.0" layoutY="306.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="3.0" width="469.0" />
+      <Text fill="WHITE" layoutX="894.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Information:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="922.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="926.0" layoutY="526.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rules:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="logOut" fill="WHITE" layoutX="1343.0" layoutY="49.0" onMouseClicked="#logOut" strokeType="OUTSIDE" strokeWidth="0.0" text="Log Out">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <ChoiceBox fx:id="configChooser" layoutX="879.0" layoutY="246.0" onAction="#onChangeConfigChooser" prefHeight="35.0" prefWidth="469.0" style="-fx-background-color: #ffffff;" />
+      <Label fx:id="name" layoutX="1040.0" layoutY="412.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="ceh" layoutX="1044.0" layoutY="504.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="cev" layoutX="1044.0" layoutY="546.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="ced" layoutX="1044.0" layoutY="591.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="consultConfigResult" layoutX="925.0" layoutY="676.0" prefHeight="28.0" prefWidth="379.0">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Rectangle fx:id="checkInitialBoardButton" arcHeight="5.0" arcWidth="5.0" height="45.0" layoutX="982.0" layoutY="700.0" onMouseClicked="#checkInitialBoard" stroke="WHITE" strokeType="INSIDE" width="282.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.018799999728798866" green="0.4699999988079071" blue="0.3346399962902069" opacity="0.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.20499999821186066" green="0.8199999928474426" blue="0.5945000052452087" opacity="0.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Rectangle>
+      <Text fx:id="checkInitialBoard" fill="WHITE" layoutX="982.0" layoutY="732.0" onMouseClicked="#checkInitialBoard" strokeType="OUTSIDE" strokeWidth="0.0" text="Consult Board" textAlignment="CENTER" wrappingWidth="282.0">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fill="WHITE" layoutX="929.0" layoutY="671.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creator:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="creator" layoutX="1044.0" layoutY="652.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Text fx:id="currentUser" fill="WHITE" layoutX="14.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello, ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Label fx:id="currentUserName" layoutX="80.0" layoutY="16.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

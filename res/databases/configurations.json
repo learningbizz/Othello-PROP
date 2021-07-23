@@ -1,0 +1,104 @@
+{
+  "Squares": {
+    "can_eat_diagonally": true,
+    "name": "Squares",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "can_eat_horizontally": false,
+    "can_eat_vertically": false,
+    "board": {
+      "row1": "BB?NB?NN",
+      "row0": "NN?NB?BB",
+      "row7": "NN?BN?BB",
+      "row6": "BB?BN?NN",
+      "row3": "BB?NN?NN",
+      "row2": "????????",
+      "row5": "????????",
+      "row4": "NN?BB?BB"
+    }
+  },
+  "Draw": {
+    "can_eat_diagonally": true,
+    "name": "Draw",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "can_eat_horizontally": true,
+    "can_eat_vertically": true,
+    "board": {
+      "row1": "BBBBBBBN",
+      "row0": "BBBBBB?B",
+      "row7": "N?NNNNNN",
+      "row6": "BNNNNNNN",
+      "row3": "BBBBBNNN",
+      "row2": "BBBBBBNN",
+      "row5": "BBNNNNNN",
+      "row4": "BBBNNNNN"
+    }
+  },
+  "Isolated": {
+    "can_eat_diagonally": false,
+    "name": "Isolated",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "can_eat_horizontally": true,
+    "can_eat_vertically": false,
+    "board": {
+      "row1": "N??????B",
+      "row0": "BN?BB?BN",
+      "row7": "NB?BB?NB",
+      "row6": "B??????N",
+      "row3": "N?B??N?N",
+      "row2": "??NBNB??",
+      "row5": "??BNBN??",
+      "row4": "N?N??B?N"
+    }
+  },
+  "Extended": {
+    "can_eat_diagonally": false,
+    "name": "Extended",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "can_eat_horizontally": true,
+    "can_eat_vertically": true,
+    "board": {
+      "row1": "?B????N?",
+      "row0": "B??????N",
+      "row7": "N??????B",
+      "row6": "?N????B?",
+      "row3": "???BN???",
+      "row2": "??B??N??",
+      "row5": "??N??B??",
+      "row4": "???NB???"
+    }
+  },
+  "Collage": {
+    "can_eat_diagonally": false,
+    "name": "Collage",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "can_eat_horizontally": false,
+    "can_eat_vertically": true,
+    "board": {
+      "row1": "????????",
+      "row0": "BNBNBNBN",
+      "row7": "NBNBNBNB",
+      "row6": "????????",
+      "row3": "?B?B?B?B",
+      "row2": "BNBNBNBN",
+      "row5": "BNBNBNBN",
+      "row4": "N?N?N?N?"
+    }
+  },
+  "Base": {
+    "can_eat_diagonally": true,
+    "name": "Base",
+    "creator_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+    "can_eat_horizontally": true,
+    "can_eat_vertically": true,
+    "board": {
+      "row1": "????????",
+      "row0": "????????",
+      "row7": "????????",
+      "row6": "????????",
+      "row3": "???BN???",
+      "row2": "????????",
+      "row5": "????????",
+      "row4": "???NB???"
+    }
+  }
+}

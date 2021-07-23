@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: cmd.driver.mediumDifficulty
+Class-Path: lib/junit.jar lib/hamcrest.jar lib/json.jar
+Created-By: Roger Mollon Prat, Manuel Tomas Navid, Arnau Pujantell Navas and Alex Rodriguez Navas

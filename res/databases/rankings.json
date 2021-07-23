@@ -1,0 +1,299 @@
+{
+  "Games lost with horizontally, vertically, diagonally rules": {
+    "entries": [
+      {
+        "player_id": "aad764a0-0d1e-47be-8855-6f2325625311",
+        "value": 4
+      },
+      {
+        "player_id": "533024fa-7fa8-4799-a85e-c1b00beccd2a",
+        "value": 3
+      },
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 2
+      },
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 1
+      }
+    ],
+    "name": "Games lost with horizontally, vertically, diagonally rules"
+  },
+  "Games lost with vertically rules": {
+    "entries": [
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 1
+      },
+      {
+        "player_id": "01cb117c-3375-455a-8916-81a0027bf343",
+        "value": 1
+      }
+    ],
+    "name": "Games lost with vertically rules"
+  },
+  "Maximum pieces obtained in a game with diagonally rules": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 24
+      },
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 16
+      }
+    ],
+    "name": "Maximum pieces obtained in a game with diagonally rules"
+  },
+  "Games won with horizontally rules": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 1
+      }
+    ],
+    "name": "Games won with horizontally rules"
+  },
+  "Games lost with diagonally rules": {
+    "entries": [
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 1
+      }
+    ],
+    "name": "Games lost with diagonally rules"
+  },
+  "Games won with horizontally, vertically rules": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 1
+      }
+    ],
+    "name": "Games won with horizontally, vertically rules"
+  },
+  "Games won with diagonally rules": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 1
+      }
+    ],
+    "name": "Games won with diagonally rules"
+  },
+  "Games lost with horizontally, vertically rules": {
+    "entries": [
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 1
+      }
+    ],
+    "name": "Games lost with horizontally, vertically rules"
+  },
+  "Maximum pieces obtained in a game with horizontally rules": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 28
+      },
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 14
+      }
+    ],
+    "name": "Maximum pieces obtained in a game with horizontally rules"
+  },
+  "Games won vs Alexandra": {
+    "entries": [
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 1
+      },
+      {
+        "player_id": "533024fa-7fa8-4799-a85e-c1b00beccd2a",
+        "value": 1
+      },
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 1
+      },
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 1
+      }
+    ],
+    "name": "Games won vs Alexandra"
+  },
+  "Maximum pieces obtained in a game with vertically rules": {
+    "entries": [
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 33
+      },
+      {
+        "player_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+        "value": 33
+      },
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 18
+      },
+      {
+        "player_id": "01cb117c-3375-455a-8916-81a0027bf343",
+        "value": 18
+      }
+    ],
+    "name": "Maximum pieces obtained in a game with vertically rules"
+  },
+  "Games won vs Margaret Hamilton": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 2
+      },
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 1
+      }
+    ],
+    "name": "Games won vs Margaret Hamilton"
+  },
+  "Maximum pieces obtained in a game with horizontally, vertically rules": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 53
+      },
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 10
+      }
+    ],
+    "name": "Maximum pieces obtained in a game with horizontally, vertically rules"
+  },
+  "Games won with vertically rules": {
+    "entries": [
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 1
+      },
+      {
+        "player_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+        "value": 1
+      }
+    ],
+    "name": "Games won with vertically rules"
+  },
+  "Games won with horizontally, vertically, diagonally rules": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 4
+      },
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 3
+      },
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 2
+      },
+      {
+        "player_id": "533024fa-7fa8-4799-a85e-c1b00beccd2a",
+        "value": 1
+      }
+    ],
+    "name": "Games won with horizontally, vertically, diagonally rules"
+  },
+  "Games won vs Papadopoulos": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 3
+      },
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 1
+      }
+    ],
+    "name": "Games won vs Papadopoulos"
+  },
+  "Games tied with horizontally, vertically, diagonally rules": {
+    "entries": [
+      {
+        "player_id": "533024fa-7fa8-4799-a85e-c1b00beccd2a",
+        "value": 2
+      },
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 1
+      },
+      {
+        "player_id": "aad764a0-0d1e-47be-8855-6f2325625311",
+        "value": 1
+      }
+    ],
+    "name": "Games tied with horizontally, vertically, diagonally rules"
+  },
+  "Maximum pieces obtained in a game with horizontally, vertically, diagonally rules": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 41
+      },
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 32
+      },
+      {
+        "player_id": "533024fa-7fa8-4799-a85e-c1b00beccd2a",
+        "value": 32
+      },
+      {
+        "player_id": "aad764a0-0d1e-47be-8855-6f2325625311",
+        "value": 24
+      },
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 23
+      }
+    ],
+    "name": "Maximum pieces obtained in a game with horizontally, vertically, diagonally rules"
+  },
+  "Games lost with horizontally rules": {
+    "entries": [
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 1
+      }
+    ],
+    "name": "Games lost with horizontally rules"
+  },
+  "Games won vs Elon Musk": {
+    "entries": [
+      {
+        "player_id": "2fb4ac14-042e-4a97-ba30-3092061e206a",
+        "value": 1
+      },
+      {
+        "player_id": "f2f69711-4b88-4ce1-aaa0-c8eca2b65e25",
+        "value": 1
+      },
+      {
+        "player_id": "a55d7116-9e26-41f1-a655-6dbe5068c6e4",
+        "value": 1
+      }
+    ],
+    "name": "Games won vs Elon Musk"
+  },
+  "Games won vs Alumno": {
+    "entries": [
+      {
+        "player_id": "e1a9eea4-b7cf-4fc2-9a5d-11bc36110cc0",
+        "value": 1
+      }
+    ],
+    "name": "Games won vs Alumno"
+  }
+}
